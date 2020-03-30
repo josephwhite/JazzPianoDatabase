@@ -35,7 +35,7 @@ public class Scrapper {
 	public SongEntry[] spreadSheet;
 	public static void main(String[] args) throws Exception {
 		//Creates list of files from desktop folder with MIDI files.
-		File dir = new File("C:/Users/Admin/Desktop/JazzPianoForDatabase");
+		File dir = new File("INSERT DIRECTORY HERE");
 		File[] fileList = dir.listFiles();
 		SongEntry[] songEntries = new SongEntry[fileList.length-1];
 		//Lists song names.
